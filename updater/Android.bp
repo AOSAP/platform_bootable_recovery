@@ -83,10 +83,6 @@ cc_library_static {
         "libupdater_defaults",
     ],
 
-    cflags: [
-        "-Wno-unused-parameter",
-    ],
-
     srcs: [
         "blockimg.cpp",
         "commands.cpp",
